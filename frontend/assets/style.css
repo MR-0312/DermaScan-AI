@@ -1,0 +1,624 @@
+/* ═══════════════════════════════════════════════════════════
+   DERMASCAN AI - PROFESSIONAL MEDICAL UI STYLES
+   Dark Mode Compatible - Production Grade
+   ═══════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* ═══════════════════════════════════════════════════════════
+   CSS VARIABLES - DARK MODE THEME
+   ═══════════════════════════════════════════════════════════ */
+:root {
+    --primary: #3b82f6;
+    --primary-dark: #2563eb;
+    --primary-light: #60a5fa;
+    --secondary: #10b981;
+    --bg-main: #0f172a;
+    --bg-card: #1e293b;
+    --bg-elevated: #334155;
+    --border: #334155;
+    --border-light: #475569;
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+    --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.3);
+    --shadow: 0 4px 6px -1px rgba(0,0,0,0.4), 0 2px 4px -1px rgba(0,0,0,0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.5), 0 4px 6px -2px rgba(0,0,0,0.4);
+    --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.6), 0 10px 10px -5px rgba(0,0,0,0.5);
+    --red: #ef4444;
+    --red-light: #7f1d1d;
+    --orange: #f97316;
+    --orange-light: #7c2d12;
+    --yellow: #f59e0b;
+    --yellow-light: #78350f;
+    --green: #10b981;
+    --green-light: #064e3b;
+    --blue: #3b82f6;
+    --blue-light: #1e3a8a;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   GLOBAL STYLES
+   ═══════════════════════════════════════════════════════════ */
+body, p, h1, h2, h3, h4, h5, h6, div, span, label, button { 
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important; 
+    color: var(--text-primary) !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+}
+
+#MainMenu, footer, header { visibility: hidden; }
+
+.block-container {
+    padding-top: 2rem !important;
+    padding-bottom: 3rem !important;
+    max-width: 1200px !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   HEADER
+   ═══════════════════════════════════════════════════════════ */
+.medical-header {
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
+    border-radius: 20px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-xl);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.medical-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+    opacity: 0.3;
+}
+
+.medical-header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.medical-header h1 { 
+    color: white !important; 
+    font-size: 2.5rem; 
+    font-weight: 800; 
+    margin: 0;
+    letter-spacing: -0.5px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.medical-header .subtitle { 
+    color: rgba(255,255,255,0.95) !important; 
+    margin: 0.8rem 0 1.2rem; 
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.medical-header .badges { 
+    display: flex; 
+    gap: 0.6rem; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.badge {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    color: white !important;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   CARDS
+   ═══════════════════════════════════════════════════════════ */
+.pro-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.pro-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+    border-color: var(--border-light);
+}
+
+.pro-card h3 { 
+    color: var(--text-primary) !important; 
+    margin: 0 0 0.8rem; 
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pro-card p { 
+    color: var(--text-secondary) !important; 
+    margin: 0; 
+    line-height: 1.7; 
+    font-size: 0.95rem;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SEVERITY BANNERS
+   ═══════════════════════════════════════════════════════════ */
+.severity-banner { 
+    border-radius: 16px; 
+    padding: 1.8rem 2rem; 
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-lg);
+    border-left: 6px solid;
+    position: relative;
+    overflow: hidden;
+}
+
+.severity-banner h2 { 
+    margin: 0; 
+    font-size: 1.6rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.severity-banner h3 { 
+    margin: 0.6rem 0 0; 
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.banner-critical { 
+    background: linear-gradient(135deg, var(--red-light) 0%, #991b1b 100%);
+    border-left-color: var(--red);
+}
+.banner-critical h2, .banner-critical h3 { color: #fca5a5 !important; }
+
+.banner-high { 
+    background: linear-gradient(135deg, var(--orange-light) 0%, #9a3412 100%);
+    border-left-color: var(--orange);
+}
+.banner-high h2, .banner-high h3 { color: #fdba74 !important; }
+
+.banner-medium { 
+    background: linear-gradient(135deg, var(--yellow-light) 0%, #92400e 100%);
+    border-left-color: var(--yellow);
+}
+.banner-medium h2, .banner-medium h3 { color: #fcd34d !important; }
+
+.banner-low { 
+    background: linear-gradient(135deg, var(--green-light) 0%, #065f46 100%);
+    border-left-color: var(--green);
+}
+.banner-low h2, .banner-low h3 { color: #86efac !important; }
+
+/* ═══════════════════════════════════════════════════════════
+   METRICS
+   ═══════════════════════════════════════════════════════════ */
+.metric-card {
+    background: var(--bg-card);
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    min-height: 140px;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.metric-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--primary);
+}
+
+.metric-card .label {
+    color: var(--text-muted) !important;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.metric-card .value { 
+    font-size: 2rem; 
+    font-weight: 800; 
+    margin: 0.5rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.metric-card .sublabel { 
+    color: var(--text-muted) !important; 
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 0.3rem;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   INFO ITEMS
+   ═══════════════════════════════════════════════════════════ */
+.info-item {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 0.6rem;
+    color: var(--text-secondary) !important;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+    transition: all 0.2s ease;
+}
+
+.info-item:hover {
+    background: var(--bg-card);
+    box-shadow: var(--shadow-sm);
+    transform: translateX(4px);
+    border-color: var(--border-light);
+}
+
+.info-item-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   WARNING & DISCLAIMER
+   ═══════════════════════════════════════════════════════════ */
+.warning-box {
+    background: linear-gradient(135deg, var(--red-light) 0%, #991b1b 100%);
+    border: 2px solid var(--red);
+    border-radius: 12px;
+    padding: 1.2rem 1.5rem;
+    color: #fca5a5 !important;
+    font-size: 0.95rem;
+    margin: 1rem 0;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.warning-box-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.disclaimer-box {
+    background: var(--yellow-light);
+    border: 2px solid var(--yellow);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    color: #fcd34d !important;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin: 1.5rem 0;
+    box-shadow: var(--shadow-sm);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   EMERGENCY CARD
+   ═══════════════════════════════════════════════════════════ */
+.emergency-card {
+    background: linear-gradient(135deg, var(--red-light) 0%, #991b1b 100%);
+    border: 2px solid var(--red);
+    border-radius: 12px;
+    padding: 1.2rem;
+    margin-top: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.emergency-card h4 { 
+    color: #fca5a5 !important; 
+    margin: 0 0 0.8rem; 
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.emergency-card p { 
+    color: #fecaca !important; 
+    margin: 0.4rem 0; 
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   PLACEHOLDER
+   ═══════════════════════════════════════════════════════════ */
+.upload-placeholder {
+    background: var(--bg-card);
+    border: 3px dashed var(--border);
+    border-radius: 20px;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+}
+
+.upload-placeholder:hover {
+    border-color: var(--primary);
+    background: var(--bg-elevated);
+    box-shadow: var(--shadow-lg);
+}
+
+.upload-placeholder .icon { 
+    font-size: 4rem; 
+    margin-bottom: 1rem;
+    opacity: 0.6;
+}
+
+.upload-placeholder h3 { 
+    color: var(--text-primary) !important; 
+    font-weight: 600; 
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.upload-placeholder p { 
+    color: var(--text-muted) !important; 
+    font-size: 0.95rem; 
+    margin-top: 0.8rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   BUTTONS
+   ═══════════════════════════════════════════════════════════ */
+.stButton > button {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%) !important;
+    color: white !important;
+    border: none !important;
+    padding: 0.8rem 2rem !important;
+    border-radius: 12px !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    box-shadow: var(--shadow) !important;
+    transition: all 0.3s ease !important;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%) !important;
+    box-shadow: var(--shadow-lg) !important;
+    transform: translateY(-2px) !important;
+}
+
+.stLinkButton > a {
+    background: linear-gradient(135deg, var(--secondary) 0%, #059669 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    padding: 0.8rem 2rem !important;
+    box-shadow: var(--shadow) !important;
+    transition: all 0.3s ease !important;
+    display: inline-block !important;
+}
+
+.stLinkButton > a:hover {
+    background: linear-gradient(135deg, #059669 0%, var(--secondary) 100%) !important;
+    box-shadow: var(--shadow-lg) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   TABS
+   ═══════════════════════════════════════════════════════════ */
+.stTabs [data-baseweb="tab-list"] { 
+    gap: 8px;
+    background: var(--bg-elevated);
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 8px !important;
+    color: var(--text-muted) !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    padding: 0.6rem 1.2rem !important;
+    transition: all 0.2s ease !important;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background: var(--bg-card) !important;
+    color: var(--primary) !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background: var(--primary) !important;
+    color: white !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SIDEBAR
+   ═══════════════════════════════════════════════════════════ */
+section[data-testid="stSidebar"] {
+    background: var(--bg-card) !important;
+    border-right: 1px solid var(--border) !important;
+}
+
+section[data-testid="stSidebar"] > div {
+    padding-top: 2rem !important;
+}
+
+section[data-testid="stSidebar"] h3 {
+    color: var(--text-primary) !important;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+}
+
+section[data-testid="stSidebar"] .stSelectbox label {
+    color: var(--text-primary) !important;
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+}
+
+section[data-testid="stSidebar"] .stExpander {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+section[data-testid="stSidebar"] .stExpander:hover {
+    box-shadow: var(--shadow);
+    border-color: var(--border-light);
+}
+
+/* Hide tooltips globally */
+[data-testid="stTooltipIcon"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.stTooltipIcon {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Hide all title tooltips */
+[title] {
+    position: relative !important;
+}
+
+[title]:hover::after,
+[title]:hover::before {
+    display: none !important;
+    content: none !important;
+}
+
+/* Specifically target keyboard_double tooltip */
+[title="keyboard_double"],
+[aria-label="keyboard_double"],
+button[title="keyboard_double"],
+div[title="keyboard_double"],
+span[title="keyboard_double"] {
+    pointer-events: auto !important;
+}
+
+[title="keyboard_double"]::after,
+[title="keyboard_double"]::before {
+    display: none !important;
+    visibility: hidden !important;
+    content: none !important;
+}
+
+/* Hide Streamlit's built-in tooltips */
+.stTooltip {
+    display: none !important;
+}
+
+div[data-baseweb="tooltip"] {
+    display: none !important;
+}
+
+/* Remove title attribute display */
+button::after,
+div::after,
+span::after,
+section::after {
+    content: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   FILE UPLOADER
+   ═══════════════════════════════════════════════════════════ */
+.stFileUploader {
+    background: var(--bg-card);
+    border: 2px dashed var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.stFileUploader:hover {
+    border-color: var(--primary);
+    background: var(--bg-elevated);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   MAP & IMAGE CONTAINERS
+   ═══════════════════════════════════════════════════════════ */
+.map-container {
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    margin: 1rem 0;
+}
+
+.image-container {
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    background: var(--bg-elevated);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   CHART LEGEND
+   ═══════════════════════════════════════════════════════════ */
+.chart-legend {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--bg-elevated);
+    border-radius: 12px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: var(--text-secondary) !important;
+}

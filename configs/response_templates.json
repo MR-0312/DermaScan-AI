@@ -1,0 +1,357 @@
+{
+    "Melanoma": {
+        "severity": "CRITICAL",
+        "tier": "CANCER",
+        "emoji": "🔴",
+        "tagline": "Possible Melanoma Detected",
+        "action": "SEEK IMMEDIATE MEDICAL ATTENTION",
+        "description": "Melanoma is the most serious type of skin cancer. It develops in the cells that give skin its color (melanocytes). Early detection is critical — when caught early, the 5-year survival rate is over 99%.",
+        "urgency_message": "Please consult a dermatologist or oncologist as soon as possible. Do NOT delay. Early treatment dramatically improves outcomes.",
+        "care_advice": [
+            "Do NOT try to treat this at home",
+            "Schedule an appointment with a dermatologist within this week",
+            "Take clear photos of the lesion for medical records",
+            "Note any recent changes in size, shape, color, or sensation",
+            "Avoid sun exposure on the affected area",
+            "Do not scratch, pick, or irritate the lesion"
+        ],
+        "risk_factors": [
+            "History of sunburns or excessive UV exposure",
+            "Fair skin, light hair, or light eyes",
+            "Family history of melanoma",
+            "Large number of moles (50+)",
+            "Weakened immune system"
+        ],
+        "hospital_search_query": "oncologist skin cancer specialist near me",
+        "hospital_type": "Cancer Hospital / Dermatology Specialist"
+    },
+
+    "Basal Cell Carcinoma": {
+        "severity": "HIGH",
+        "tier": "CANCER",
+        "emoji": "🟠",
+        "tagline": "Possible Basal Cell Carcinoma Detected",
+        "action": "CONSULT A DERMATOLOGIST PROMPTLY",
+        "description": "Basal Cell Carcinoma (BCC) is the most common form of skin cancer. While it rarely spreads to other parts of the body, it can cause significant local tissue damage if left untreated.",
+        "urgency_message": "Please schedule an appointment with a dermatologist within 2 weeks. BCC is highly treatable when caught early.",
+        "care_advice": [
+            "Schedule a dermatologist appointment within 2 weeks",
+            "Do not attempt to remove or treat the lesion yourself",
+            "Protect the area from sun exposure (SPF 50+)",
+            "Monitor for any changes in size or appearance",
+            "Take photos to track any changes before your appointment",
+            "Avoid tanning beds and prolonged sun exposure"
+        ],
+        "risk_factors": [
+            "Chronic sun exposure over many years",
+            "History of sunburns",
+            "Fair skin",
+            "Age over 50",
+            "Previous history of skin cancer"
+        ],
+        "hospital_search_query": "dermatologist skin cancer near me",
+        "hospital_type": "Dermatology Clinic / Skin Cancer Center"
+    },
+
+    "Actinic Keratoses": {
+        "severity": "MEDIUM",
+        "tier": "PRE-CANCER",
+        "emoji": "🟡",
+        "tagline": "Possible Pre-Cancerous Lesion Detected",
+        "action": "SCHEDULE A DERMATOLOGY APPOINTMENT",
+        "description": "Actinic Keratosis (AK) is a rough, scaly patch on the skin caused by years of sun exposure. It's considered pre-cancerous — about 5-10% of AKs can progress to squamous cell carcinoma if untreated.",
+        "urgency_message": "While not an emergency, please see a dermatologist within the next month. Early treatment prevents progression to cancer.",
+        "care_advice": [
+            "Schedule a dermatologist visit within 1 month",
+            "Apply broad-spectrum sunscreen (SPF 30+) daily",
+            "Wear protective clothing and hats outdoors",
+            "Avoid peak sun hours (10 AM – 4 PM)",
+            "Monitor the lesion for changes in size or texture",
+            "Do not pick or scratch the affected area",
+            "Keep the area moisturized"
+        ],
+        "risk_factors": [
+            "Cumulative sun exposure",
+            "Fair skin",
+            "Age over 40",
+            "Living in sunny climates",
+            "Outdoor occupation"
+        ],
+        "hospital_search_query": "dermatologist near me",
+        "hospital_type": "Dermatology Clinic"
+    },
+
+    "Melanocytic Nevi": {
+        "severity": "LOW",
+        "tier": "BENIGN",
+        "emoji": "🟢",
+        "tagline": "Common Mole (Melanocytic Nevus)",
+        "action": "MONITOR AT HOME",
+        "description": "This appears to be a common mole (melanocytic nevus). Moles are very common and usually harmless. Most adults have 10-40 moles. However, it's important to monitor moles for changes.",
+        "urgency_message": "No immediate medical attention needed. Continue regular self-examinations using the ABCDE rule.",
+        "care_advice": [
+            "Monitor monthly using the ABCDE rule:",
+            "  A — Asymmetry: Is one half different from the other?",
+            "  B — Border: Are edges irregular, ragged, or blurred?",
+            "  C — Color: Is the color uneven or has it changed?",
+            "  D — Diameter: Is it larger than 6mm (pencil eraser)?",
+            "  E — Evolving: Has it changed in size, shape, or color?",
+            "Use sunscreen (SPF 30+) to protect moles from UV damage",
+            "See a dermatologist if any of the ABCDE signs appear",
+            "Annual skin check recommended for people with many moles"
+        ],
+        "risk_factors": [],
+        "hospital_search_query": "dermatologist near me",
+        "hospital_type": "Dermatology Clinic"
+    },
+
+    "Benign Keratosis": {
+        "severity": "LOW",
+        "tier": "BENIGN",
+        "emoji": "🟢",
+        "tagline": "Benign Keratosis (Non-Cancerous Growth)",
+        "action": "NO TREATMENT USUALLY NEEDED",
+        "description": "This appears to be a benign keratosis, such as a seborrheic keratosis or solar lentigo. These are very common, harmless skin growths that typically appear with age. They are NOT cancerous.",
+        "urgency_message": "No medical attention needed unless the growth is bothersome, irritated, or you notice sudden changes.",
+        "care_advice": [
+            "No treatment is usually necessary",
+            "These growths are harmless and non-cancerous",
+            "See a doctor if the growth becomes irritated or bleeds",
+            "See a doctor if it changes rapidly in size or color",
+            "Can be removed for cosmetic reasons if desired",
+            "Protect skin from excessive sun exposure",
+            "Use moisturizer to keep the area comfortable"
+        ],
+        "risk_factors": [],
+        "hospital_search_query": "dermatologist near me",
+        "hospital_type": "Dermatology Clinic"
+    },
+
+    "Dermatofibroma": {
+        "severity": "LOW",
+        "tier": "BENIGN",
+        "emoji": "🟢",
+        "tagline": "Dermatofibroma (Benign Skin Nodule)",
+        "action": "USUALLY NO TREATMENT NEEDED",
+        "description": "This appears to be a dermatofibroma — a common, harmless firm bump in the skin. They are benign and typically develop on the legs. They may result from minor injuries like insect bites.",
+        "urgency_message": "No medical attention needed. These are harmless. Consult a doctor only if it grows rapidly or becomes painful.",
+        "care_advice": [
+            "No treatment is usually necessary",
+            "Dermatofibromas are completely harmless",
+            "They may persist indefinitely but don't become cancerous",
+            "See a doctor if it grows rapidly or changes significantly",
+            "Surgical removal is possible if it's bothersome",
+            "Avoid repeated trauma to the area"
+        ],
+        "risk_factors": [],
+        "hospital_search_query": "dermatologist near me",
+        "hospital_type": "Dermatology Clinic"
+    },
+
+    "Vascular Lesions": {
+        "severity": "LOW",
+        "tier": "BENIGN",
+        "emoji": "🟢",
+        "tagline": "Vascular Lesion (Blood Vessel Related)",
+        "action": "USUALLY HARMLESS — MONITOR",
+        "description": "This appears to be a vascular lesion, such as a cherry angioma or hemangioma. These are growths made up of blood vessels and are almost always benign. They are very common, especially after age 30.",
+        "urgency_message": "No immediate medical attention needed. These are cosmetic concerns only. See a doctor if it bleeds frequently or grows rapidly.",
+        "care_advice": [
+            "Vascular lesions are almost always harmless",
+            "No treatment needed unless cosmetically bothersome",
+            "See a doctor if it bleeds repeatedly or won't stop bleeding",
+            "See a doctor if it grows rapidly",
+            "Laser treatment or electrocautery can remove them if desired",
+            "Avoid picking or scratching the lesion"
+        ],
+        "risk_factors": [],
+        "hospital_search_query": "dermatologist near me",
+        "hospital_type": "Dermatology Clinic"
+    },
+
+    "Acne and Rosacea": {
+        "severity": "LOW",
+        "tier": "DISEASE",
+        "emoji": "🔵",
+        "tagline": "Acne or Rosacea Detected",
+        "action": "MANAGEABLE WITH PROPER CARE",
+        "description": "This appears to be acne or rosacea — two of the most common skin conditions worldwide. Acne involves clogged pores and inflammation. Rosacea causes redness and visible blood vessels, usually on the face.",
+        "urgency_message": "Not urgent. Can be managed with proper skincare. See a dermatologist if over-the-counter treatments don't improve symptoms within 6-8 weeks.",
+        "care_advice": [
+            "Wash affected area gently twice daily with mild cleanser",
+            "Use non-comedogenic (won't clog pores) moisturizer and sunscreen",
+            "Avoid touching or picking at pimples — causes scarring",
+            "Over-the-counter options: benzoyl peroxide (2.5-5%) or salicylic acid (0.5-2%)",
+            "For rosacea: avoid triggers like spicy food, alcohol, hot drinks, extreme temperatures",
+            "Use lukewarm water — hot water worsens both conditions",
+            "Change pillowcases frequently",
+            "Consider seeing a dermatologist for persistent or severe cases",
+            "Prescription options (from doctor): retinoids, antibiotics, or azelaic acid"
+        ],
+        "risk_factors": [
+            "Hormonal changes",
+            "Stress",
+            "Certain medications",
+            "Family history"
+        ],
+        "hospital_search_query": "dermatologist acne treatment near me",
+        "hospital_type": "Dermatology Clinic"
+    },
+
+    "Eczema": {
+        "severity": "LOW",
+        "tier": "DISEASE",
+        "emoji": "🔵",
+        "tagline": "Eczema (Atopic Dermatitis) Detected",
+        "action": "MANAGEABLE WITH PROPER CARE",
+        "description": "This appears to be eczema (atopic dermatitis) — a chronic condition that causes the skin to become itchy, red, dry, and cracked. It's very common, affecting about 15-20% of children and 3% of adults.",
+        "urgency_message": "Not urgent. Can be managed with moisturizing and avoiding triggers. See a doctor if symptoms are severe, infected, or disrupting sleep.",
+        "care_advice": [
+            "Moisturize frequently — at least 2-3 times daily",
+            "Use thick, fragrance-free moisturizers (like CeraVe, Eucerin, or Vaseline)",
+            "Apply moisturizer within 3 minutes of bathing to lock in moisture",
+            "Take short, lukewarm baths/showers (not hot)",
+            "Use gentle, fragrance-free soap and laundry detergent",
+            "Wear soft, breathable cotton clothing",
+            "Avoid known triggers: harsh soaps, certain fabrics, stress, allergens",
+            "For flare-ups: OTC hydrocortisone cream (1%) for short periods (max 7 days)",
+            "Keep nails short to minimize damage from scratching",
+            "Use a humidifier in dry weather",
+            "See a doctor if: area becomes weepy, crusty, or shows signs of infection"
+        ],
+        "risk_factors": [
+            "Family history of eczema, asthma, or allergies",
+            "Dry climate",
+            "Stress",
+            "Certain foods or allergens"
+        ],
+        "hospital_search_query": "dermatologist eczema treatment near me",
+        "hospital_type": "Dermatology Clinic"
+    },
+
+    "Psoriasis": {
+        "severity": "LOW",
+        "tier": "DISEASE",
+        "emoji": "🔵",
+        "tagline": "Psoriasis Detected",
+        "action": "CHRONIC BUT MANAGEABLE",
+        "description": "This appears to be psoriasis — a chronic autoimmune condition that causes cells to build up rapidly on the skin surface, forming thick, silvery scales and itchy, dry, red patches. It affects about 2-3% of the population.",
+        "urgency_message": "Not an emergency. Psoriasis is a chronic condition that can be managed effectively. See a dermatologist for a treatment plan.",
+        "care_advice": [
+            "Keep skin well moisturized — apply thick cream after bathing",
+            "Take daily lukewarm baths with colloidal oatmeal or bath oil",
+            "Use OTC treatments: salicylic acid or coal tar products",
+            "Get moderate sun exposure (10-15 min) — helps many cases",
+            "But avoid sunburn — can trigger flare-ups (Koebner phenomenon)",
+            "Avoid skin injuries — cuts, scrapes can trigger new patches",
+            "Manage stress — meditation, exercise, adequate sleep",
+            "Avoid alcohol and smoking — both worsen psoriasis",
+            "Consider vitamin D supplements (consult doctor first)",
+            "See a dermatologist for prescription treatments if OTC doesn't help",
+            "Joint pain? Tell your doctor — psoriatic arthritis affects 30% of patients"
+        ],
+        "risk_factors": [
+            "Family history of psoriasis",
+            "Stress",
+            "Smoking",
+            "Certain infections",
+            "Some medications (lithium, beta-blockers)"
+        ],
+        "hospital_search_query": "dermatologist psoriasis treatment near me",
+        "hospital_type": "Dermatology Clinic"
+    },
+
+    "Fungal Infection": {
+        "severity": "LOW",
+        "tier": "DISEASE",
+        "emoji": "🔵",
+        "tagline": "Fungal Skin Infection Detected",
+        "action": "TREATABLE WITH ANTIFUNGAL CARE",
+        "description": "This appears to be a fungal skin infection such as ringworm (tinea), athlete's foot, or candidiasis. These are very common and highly treatable infections caused by fungi that thrive in warm, moist environments.",
+        "urgency_message": "Not urgent but should be treated to prevent spreading. Most cases resolve with over-the-counter antifungal treatment within 2-4 weeks.",
+        "care_advice": [
+            "Apply OTC antifungal cream/powder (clotrimazole, miconazole, or terbinafine)",
+            "Apply antifungal product to the affected area twice daily",
+            "Continue treatment for 1-2 weeks AFTER symptoms clear",
+            "Keep the affected area clean and DRY",
+            "Wash hands after touching the affected area",
+            "Don't share towels, clothing, or personal items",
+            "Wear loose, breathable clothing and cotton underwear",
+            "Change socks daily if feet are affected",
+            "Dry feet thoroughly after bathing, especially between toes",
+            "See a doctor if: no improvement after 2 weeks of OTC treatment",
+            "See a doctor if: infection covers a large area or affects scalp/nails"
+        ],
+        "risk_factors": [
+            "Warm, humid environments",
+            "Tight clothing",
+            "Weakened immune system",
+            "Public showers/pools",
+            "Close contact with infected person or animal"
+        ],
+        "hospital_search_query": "dermatologist fungal infection near me",
+        "hospital_type": "Dermatology Clinic / General Practitioner"
+    },
+
+    "Warts and Viral": {
+        "severity": "LOW",
+        "tier": "DISEASE",
+        "emoji": "🔵",
+        "tagline": "Wart or Viral Skin Infection Detected",
+        "action": "USUALLY RESOLVES — TREATMENT AVAILABLE",
+        "description": "This appears to be a wart or viral skin infection (such as molluscum contagiosum). Warts are caused by the Human Papillomavirus (HPV) and are very common, especially in children and young adults. They are usually harmless.",
+        "urgency_message": "Not urgent. Many warts resolve on their own within 1-2 years. Treatment can speed up removal if desired.",
+        "care_advice": [
+            "Many warts resolve on their own without treatment",
+            "OTC treatment: salicylic acid pads/solutions (apply daily for weeks)",
+            "OTC treatment: freeze-away products (cryotherapy kits)",
+            "Cover the wart with a bandage to prevent spreading",
+            "Don't pick, scratch, or bite warts — spreads the virus",
+            "Wash hands after touching warts",
+            "Don't share towels or personal items",
+            "Keep the area dry",
+            "See a doctor for: genital warts, facial warts, or painful warts",
+            "See a doctor if: warts multiply rapidly or don't respond to OTC treatment",
+            "Professional options: cryotherapy, laser, or prescription treatments"
+        ],
+        "risk_factors": [
+            "Weakened immune system",
+            "Broken skin",
+            "Walking barefoot in public areas",
+            "Close contact with infected person"
+        ],
+        "hospital_search_query": "dermatologist wart removal near me",
+        "hospital_type": "Dermatology Clinic / General Practitioner"
+    },
+
+    "Vitiligo": {
+        "severity": "LOW",
+        "tier": "DISEASE",
+        "emoji": "🔵",
+        "tagline": "Vitiligo (Pigmentation Disorder) Detected",
+        "action": "NOT DANGEROUS — TREATMENT AVAILABLE",
+        "description": "This appears to be vitiligo — a condition where the skin loses its pigment cells (melanocytes), resulting in white patches. Vitiligo is not contagious, not painful, and not medically dangerous, but it can have significant psychological impact.",
+        "urgency_message": "Not medically urgent. Vitiligo is not dangerous but can affect quality of life. See a dermatologist to discuss treatment options.",
+        "care_advice": [
+            "Vitiligo is NOT contagious and NOT dangerous",
+            "Protect depigmented areas from sunburn — use SPF 50+ sunscreen",
+            "Depigmented skin burns very easily",
+            "See a dermatologist for treatment options if desired",
+            "Treatment options include: topical corticosteroids, calcineurin inhibitors",
+            "Phototherapy (light therapy) can help repigmentation",
+            "Cosmetic options: camouflage makeup, self-tanners",
+            "Join a support group — psychological support is important",
+            "Manage stress — can worsen vitiligo",
+            "Eat a balanced diet rich in antioxidants",
+            "Some patients benefit from vitamin B12 and folic acid (consult doctor)"
+        ],
+        "risk_factors": [
+            "Family history of vitiligo",
+            "Autoimmune conditions (thyroid disease, type 1 diabetes)",
+            "Stress",
+            "Skin trauma"
+        ],
+        "hospital_search_query": "dermatologist vitiligo treatment near me",
+        "hospital_type": "Dermatology Clinic"
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "0": {
+        "name": "Melanoma",
+        "folder": "Melanoma",
+        "tier": "CANCER",
+        "severity": "CRITICAL",
+        "color": "#e74c3c"
+    },
+    "1": {
+        "name": "Basal Cell Carcinoma",
+        "folder": "Basal_Cell_Carcinoma",
+        "tier": "CANCER",
+        "severity": "HIGH",
+        "color": "#e67e22"
+    },
+    "2": {
+        "name": "Actinic Keratoses",
+        "folder": "Actinic_Keratoses",
+        "tier": "PRE-CANCER",
+        "severity": "MEDIUM",
+        "color": "#f39c12"
+    },
+    "3": {
+        "name": "Melanocytic Nevi",
+        "folder": "Melanocytic_Nevi",
+        "tier": "BENIGN",
+        "severity": "LOW",
+        "color": "#27ae60"
+    },
+    "4": {
+        "name": "Benign Keratosis",
+        "folder": "Benign_Keratosis",
+        "tier": "BENIGN",
+        "severity": "LOW",
+        "color": "#2ecc71"
+    },
+    "5": {
+        "name": "Dermatofibroma",
+        "folder": "Dermatofibroma",
+        "tier": "BENIGN",
+        "severity": "LOW",
+        "color": "#1abc9c"
+    },
+    "6": {
+        "name": "Vascular Lesions",
+        "folder": "Vascular_Lesions",
+        "tier": "BENIGN",
+        "severity": "LOW",
+        "color": "#16a085"
+    },
+    "7": {
+        "name": "Acne and Rosacea",
+        "folder": "Acne",
+        "tier": "DISEASE",
+        "severity": "LOW",
+        "color": "#3498db"
+    },
+    "8": {
+        "name": "Eczema",
+        "folder": "Eczema",
+        "tier": "DISEASE",
+        "severity": "LOW",
+        "color": "#2980b9"
+    },
+    "9": {
+        "name": "Psoriasis",
+        "folder": "Psoriasis",
+        "tier": "DISEASE",
+        "severity": "LOW",
+        "color": "#9b59b6"
+    },
+    "10": {
+        "name": "Fungal Infection",
+        "folder": "Fungal_Infection",
+        "tier": "DISEASE",
+        "severity": "LOW",
+        "color": "#8e44ad"
+    },
+    "11": {
+        "name": "Warts and Viral",
+        "folder": "Warts",
+        "tier": "DISEASE",
+        "severity": "LOW",
+        "color": "#34495e"
+    },
+    "12": {
+        "name": "Vitiligo",
+        "folder": "Vitiligo",
+        "tier": "DISEASE",
+        "severity": "LOW",
+        "color": "#7f8c8d"
+    }
+}
