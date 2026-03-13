@@ -23,7 +23,6 @@
 - [Overview](#-overview)
 - [Features](#-features)
 - [Demo](#-demo)
-- [Technology Stack](#-technology-stack)
 - [Architecture](#-architecture)
 - [Installation](#-installation)
 - [Usage](#-usage)
