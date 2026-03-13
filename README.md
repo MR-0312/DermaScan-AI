@@ -496,14 +496,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/dermascan-ai/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/dermascan-ai/discussions)
-- **Email**: your.email@example.com
-
----
-
 ## 🌟 Star History
 
 If you find this project useful, please consider giving it a ⭐!
